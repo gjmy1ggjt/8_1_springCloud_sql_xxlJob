@@ -1,0 +1,13 @@
+server:
+  port: 8769
+  servlet:
+    context-path: /demo
+
+static:
+  file:
+    server: http://static.eship.com     # 生产环境 : http://static.17feia.com
+    upload: C:/              # 生产环境 :  /17feia/nfsFiles/ ,  开发本机环境为  X:/
+#    upload: /eship/nfsFiles/              # 生产环境 :  /17feia/nfsFiles/ ,  开发本机环境为  X:/
+    pdfTempPath: /eship/nfsFiles/label/
+
+

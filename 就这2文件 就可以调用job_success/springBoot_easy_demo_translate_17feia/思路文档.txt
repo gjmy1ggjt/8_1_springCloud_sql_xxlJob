@@ -1,0 +1,40 @@
+1,将 代码放在 controller文件夹同级目录
+
+2，读取所有的 file 
+
+3，排除注释
+
+4，类-方法-中文
+
+[
+
+	{class1: [
+
+			method: ['中文1', '中文2']
+		]
+
+	},
+
+	{class2: [
+
+			method: ['中文1', '中文2']
+		]
+
+	}
+]
+
+1，代码 打包成 jar java -jar a.jar  2，放到controller 层的 文件夹  3，cmd  然后调接口  4，test.txt文件
+
+运行扫描 2遍 file  第一遍扫描所有的 方法名 ； 第二遍带着方法名去找到中文  或者 根据大小括号
+
+现在的问题是  第一个方法里没有正确填充 汉字  最后一个有汉字的 没有收集
+
+com.example.demo.translate_work.FileUtils
+
+
+java -cp demo.jar com.example.demo.translate_work.FileUtils
+
+
+5，生成excel
+
+
